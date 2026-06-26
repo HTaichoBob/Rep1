@@ -1,0 +1,5 @@
+print ("Hello World  ")
+print ("Welcome to Python programming!")
+print ("What is your name?")
+name = input()
+print ("Hello, " + name + "! Glad to have you learning Python.")
