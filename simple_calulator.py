@@ -9,8 +9,11 @@ elif operator == "-":
 elif operator == "*":
     print(first_number * second_number)
 elif operator == "/":
-    print(first_number / second_number)
-    
+    if second_number == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        print(first_number / second_number)
+
 
 
 
