@@ -1,0 +1,12 @@
+rando_list = [8, 17, 99, 23, 45]
+print(rando_list)
+sorted_list = sorted(rando_list)
+print("Sorted list:  ",sorted_list)
+rando_list.sort()
+print("List after using .sort", rando_list)
+rando_list.append(77)
+print("List after appending 77:", rando_list)
+rando_list.remove(17)
+print("List after removing 17:", rando_list)
+rando_list.reverse()
+print("Reversed:" , rando_list)
