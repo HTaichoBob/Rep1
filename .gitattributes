@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+i = 0
+while i <= 3 :
+    i += 2
+    print("*")# Auto detect text files and perform LF normalization
 * text=auto
