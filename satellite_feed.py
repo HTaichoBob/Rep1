@@ -58,18 +58,18 @@ print(cleaned_up)
 # for item in satellite_feeds:
    # print(decode_words(satellite_feeds))
 
-   def decode_words(item):
+def decode_words(item):
     parts = item.split("-")
     return "".join(chr(int(n)) for n in parts)
 
-for item in satellite_feed:
+for item in satellite_feeds:
     try:
         # Try to decode every item
         decoded = decode_words(item)
         print(decoded)
 
         # Try dividing 100 by the 5th item ("0")
-        result = 100 / int(satellite_feed[4])
+        result = 100 / int(satellite_feeds[4])
         print(result)
 
     except AttributeError:
